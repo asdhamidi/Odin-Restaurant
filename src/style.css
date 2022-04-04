@@ -25,6 +25,7 @@ nav {
 
 nav a {
     transition-duration: 300ms;
+    user-select: none;
 }
 
 nav a:hover {
@@ -34,6 +35,8 @@ nav a:hover {
 .content-box {
     display: flex;
     margin-left: 18vw;
+    overflow: hidden;
+    height: 100vh;
 }
 
 .info {
@@ -65,6 +68,7 @@ nav a:hover {
 }
 
 .title {
+    user-select: none;
     font-size: 2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
