@@ -1,5 +1,5 @@
-import {element} from "./helper";
-import './style.css';
+import { element } from './helper';
+import '../style.css';
 import loadAbout from "./about";
 
 function loadNav()

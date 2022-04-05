@@ -1,6 +1,6 @@
-import aboutImage from'./assets/about.jpg';
+import aboutImage from'../assets/about.jpg';
 import {element} from './helper';
-import './style.css';
+import '../style.css';
 
 export default function loadAbout() {
     let content = document.getElementById("content");

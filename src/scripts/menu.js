@@ -1,6 +1,6 @@
-import MenuImage from './assets/menu.jpg';
+import MenuImage from '../assets/menu.jpg';
 import {element} from './helper';
-import './style.css';
+import '../style.css';
 
 export default function loadMenu() {
     let content = document.getElementById("content");

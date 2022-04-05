@@ -1,5 +1,5 @@
-import contactImage from './assets/contact.jpg';
-import './style.css';
+import contactImage from '../assets/contact.jpg';
+import '../style.css';
 import {element} from './helper';
 
 export default function loadContact() {

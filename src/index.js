@@ -1,8 +1,8 @@
-import { begin } from "./begin";
-import loadAbout from "./about";
-import loadMenu from "./menu";
-import loadContact from "./contact";
-import { clear } from "./helper";
+import { begin } from "./scripts/begin";
+import loadAbout from "./scripts/about";
+import loadMenu from "./scripts/menu";
+import loadContact from "./scripts/contact";
+import { clear } from "./scripts/helper";
 
 begin();
 
